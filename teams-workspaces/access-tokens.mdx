@@ -1,0 +1,45 @@
+---
+title: How do I create an access token to authenticate API requests?
+sidebarTitle: Creating Access Tokens
+description: Learn how create an access token for your workspace to authenticate API requests?
+keywords: "Organization, Profile, Visibility"
+category: "OPP, Bridge"
+display: true
+asIndexPage: false
+theme: 
+  toc: true
+  timestamp: true
+  pagination: true
+  breadcrumb: true
+  sidebar: true
+---
+
+# How do I create an access token to user the OnePass API?
+
+## Problem
+
+I want to create an automated workflow to synch the information in my workspace with our marketing site and I need to create an access token to authenticate the API requests, but I don't know how.
+
+## Solutions
+The access tokens allows extending the functionality of OnePass to your needs and enable you to build custom solutions (such as automated worklows) by providing a secure way to authenticate API requests.
+
+You can generate an access token by following these steps:
+1. sign in to your OnePass account,
+2. navigate to the "Workspace Settings",
+3. click on the "Access tokens" option of the left side menu,
+4. tap on the "Create new token" black button of the central frame and fill the requested information:
+   - name of the token (a unique name that may be visible to the resource owners or the users with access)
+   - a short descreiption about what is the token for
+   - scope of the token (if it will have read, write or admin permissions)
+5. add an expiry date for the token, if you wish so, and
+6. click the green "Generate token" button.
+
+After that, your new access token will be shown for you to save it.
+
+## Notes
+
+Please, bear in mind that, for security reasons:
+- You will only be able to see the token once, just after generating it. You'll have to save it yourself in a secure place.
+- You must NOT share this private key with anyone outside your Organization, or with someone you don't fully trust, because workspace access tokens act as your user account.
+
+Remember to delete the access tokens that you do not need anymore. You can do it from the same "Access tokens" option by clicking on the trash icon to the right of the name of the token that you want to delete.
