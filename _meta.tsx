@@ -4,7 +4,7 @@ export default {
     title: "Getting started",
     display: "hidden",
   },
-  "account": {
+  account: {
     title: "User Account",
     display: "hidden",
   },
@@ -16,7 +16,7 @@ export default {
     title: "Managing and Sharing Documents",
     display: "hidden",
   },
-  "lists": {
+  lists: {
     title: "Creating and Managing Lists",
     display: "hidden",
   },
@@ -24,11 +24,11 @@ export default {
     title: "Communicating through OnePass",
     display: "hidden",
   },
-  "opportunities": {
+  opportunities: {
     title: "Identifying further opportunities",
     display: "hidden",
   },
-  "faqs": {
+  faqs: {
     title: "Frequently Asked Questions",
     display: "hidden",
   },
