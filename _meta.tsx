@@ -28,7 +28,7 @@ export default {
     title: "Identifying further opportunities",
     display: "hidden",
   },
-  "faq": {
+  "faqs": {
     title: "Frequently Asked Questions",
     display: "hidden",
   },
