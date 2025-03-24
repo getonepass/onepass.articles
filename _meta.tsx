@@ -12,7 +12,7 @@ export default {
     title: "Workspaces and Team Members",
     display: "hidden",
   },
-  "document-management": {
+  "documents-management": {
     title: "Managing and Sharing Documents",
     display: "hidden",
   },
@@ -24,7 +24,7 @@ export default {
     title: "Communicating through OnePass",
     display: "hidden",
   },
-  "Opportunities": {
+  "opportunities": {
     title: "Identifying further opportunities",
     display: "hidden",
   },
