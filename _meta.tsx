@@ -21,8 +21,10 @@ export default {
   },
   opportunities: {
     title: "Identifying further opportunities",
+    display: "hidden",
   },
   faqs: {
     title: "Frequently Asked Questions",
+    display: "hidden",
   },
 } satisfies MetaRecord
